@@ -1,0 +1,20 @@
+{
+  "name": "rop",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "GNU v3",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "instagram-web-api": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
