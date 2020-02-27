@@ -2,7 +2,7 @@
   "name": "rop",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "GNU v3",
+  "license": "MIT",
   "scripts": {
     "dev": "nodemon server.js"
   },
