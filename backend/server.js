@@ -8,7 +8,7 @@ app.listen(8080);
 
 const Instagram = require('instagram-web-api') //incluir a api
 const { username, password } = process.env // realmetne nao sei ainda
-const client = new Instagram({ username: 'coalitos2', password: 'Mercenaries/1' }) // bot que usa pra consultar
+const client = new Instagram({ username: '<usuario_do_bot>', password: '<senha_do_bot>' }) // bot que usa pra consultar
 
 // rota pra conseguir info de usuarios, rota com variavel :name
 app.get('/get_user_info/:name', (req, res) => {
